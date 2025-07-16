@@ -1,41 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="Styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home</title>
+  <link rel="stylesheet" href="Styles.css" />
+  <style>
+    .hero {
+      margin-top: 120px;
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(to right, #004d7a, #008793);
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .hero a.button {
+      padding: 10px 20px;
+      background-color: #ff4b5c;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 30px 20px;
+      text-align: center;
+      background-color: #f7f7f7;
+    }
+
+    .stat {
+      margin: 10px;
+    }
+
+    .stat h3 {
+      font-size: 28px;
+      color: #333;
+    }
+
+    .stat p {
+      font-size: 16px;
+      color: #666;
+    }
+
+    .testimonials {
+      padding: 40px 20px;
+      background-color: #e0e0e0;
+    }
+
+    .testimonial {
+      margin-bottom: 20px;
+      font-style: italic;
+    }
+
+    .testimonial strong {
+      display: block;
+      margin-top: 5px;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h3 class="logo">Logo</h3>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="admissions.html">Admissions</a>
-            <a href="#">Facilities</a>
-            <a href="#">Events</a>
-            <a href="#">Login</a>
-        </nav>
-    </header>
-    <div>
-        <section class="info">
-        <h2>Important information</h2>
-        <h4>10 Students got placed in Tcs last day</h4>
-        </section>
-        <section class="info1">
-        <h2>Departements</h2>
-        <ul>
-            <li>Computer science of enegineering</li>
-            <li>Mechanical Enegineering</li>
-            <li>Civil Enegineering</li>
-            <li>Chemical Enegineering</li>
-            <li>Cse sub branches</li>
-        </ul>
+  <header>
+    <h3 class="logo">MVGR</h3>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="admissions.html">Admissions</a>
+      <a href="#">Facilities</a>
+      <a href="#">Events</a>
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <main>
+   
+    <section class="hero">
+      <h1>Welcome to MVGR College of Engineering</h1>
+      <p>Empowering students with knowledge, skill, and values.</p>
+      <a href="admissions.html" class="button">Apply Now</a>
     </section>
-    </div>
-    <footer class="foot">
-        <p>Mvgr college of enegineering</p>
-        <p>All rights reserved @2025</p>
-    </footer>
+
+    <section class="stats">
+      <div class="stat">
+        <h3>1500+</h3>
+        <p>Students Enrolled</p>
+      </div>
+      <div class="stat">
+        <h3>95%</h3>
+        <p>Placement Rate</p>
+      </div>
+      <div class="stat">
+        <h3>200+</h3>
+        <p>Qualified Faculty</p>
+      </div>
+      <div class="stat">
+        <h3>30+</h3>
+        <p>Years of Excellence</p>
+      </div>
+    </section>
+
+    <section class="info">
+      <h2>Important Announcements</h2>
+      <h4>🎉 10 students placed in TCS yesterday!</h4>
+      <p>Campus placements are in full swing. Don't miss your chance to be recruited by top companies.</p>
+    </section>
+
+    <section class="info1">
+      <h2>Departments</h2>
+      <ul>
+        <li>Computer Science and Engineering (CSE)</li>
+        <li>Electronics and Communication Engineering (ECE)</li>
+        <li>Mechanical Engineering (ME)</li>
+        <li>Civil Engineering (CE)</li>
+        <li>Chemical Engineering (ChE)</li>
+        <li>Artificial Intelligence and Data Science (AI & DS)</li>
+      </ul>
+    </section>
+
+    <section class="testimonials">
+      <h2>What Our Students Say</h2>
+      <div class="testimonial">
+        "MVGR gave me the confidence and skills to secure a job at Infosys right after graduation."
+        <strong>- Rakesh, CSE 2023</strong>
+      </div>
+      <div class="testimonial">
+        "Excellent faculty, great labs, and a wonderful campus experience!"
+        <strong>- Anjali, ECE 2022</strong>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>MVGR College of Engineering</p>
+    <p>All rights reserved © 2025</p>
+  </footer>
 </body>
 </html>
